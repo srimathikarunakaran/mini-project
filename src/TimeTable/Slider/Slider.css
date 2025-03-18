@@ -1,0 +1,28 @@
+.carousel-responsive {
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    
+    
+
+  }
+  
+  .carousel-responsive img {
+    height: 500px;
+    object-fit: cover;
+    
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    .carousel-responsive img {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-responsive img {
+      height: 200px;
+    }
+  }

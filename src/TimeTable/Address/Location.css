@@ -1,0 +1,41 @@
+.address-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .col-1 {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .col-2 {
+    color: blue;
+    font-size: 18px;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    .address-container {
+      padding: 10px;
+    }
+    .col-1 {
+      font-size: 18px;
+    }
+    .col-2 {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .address-container {
+      padding: 5px;
+    }
+    .col-1 {
+      font-size: 14px;
+    }
+    .col-2 {
+      font-size: 12px;
+    }
+  }

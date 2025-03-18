@@ -1,0 +1,23 @@
+.studetdetails{
+    background-color: rgba(0, 0, 0, 0.226);
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 40px;
+    
+}
+.Form{
+    background-color: rgb(55, 55, 63);
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(34, 10, 247, 0.589);
+}
+.Form Button{
+    text-align: center;
+    background-color: blue; 
+    width: 200px;
+    color: antiquewhite;
+    margin-left: 40px;
+}
+.datas{
+    color: blue;
+}

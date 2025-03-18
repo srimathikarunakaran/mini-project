@@ -1,0 +1,23 @@
+.timetable {
+    margin-top: 50px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 50px;
+    border-radius: 30px;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    .timetable {
+      padding: 20px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .timetable {
+      padding: 10px;
+      margin-top: 10px;
+    }
+  }

@@ -1,0 +1,90 @@
+.navbar {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+.logo {
+  color: #2369eb;
+  text-shadow: 2px 2px #030349;
+  font-weight: bolder;
+  padding: 30px;
+  font-style: italic;
+  font-size: 30px;
+}
+.nav-con{
+  background-color:rgba(182, 182, 240, 0.568);
+  border: none;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .navbar {
+    border-radius: 30px;
+    padding: 5px;
+  }
+  .navbar Nav {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .navbar Nav.Link {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 8px;
+    border-radius: 20px;
+  }
+  .navbar Nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar Nav.Link {
+    margin-bottom: 5px;
+  }
+}
+  .about {
+    border: white 2px solid;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.274);
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 40px;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    .about {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about {
+      padding: 10px;
+    }
+  }
+
+  .contact{
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.322);
+    border-radius: 30px;
+  }
+  .contactform{
+    background-color: #030349;
+    padding: 40px;
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .contactform button{
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+   
+  }

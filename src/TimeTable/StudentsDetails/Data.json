@@ -1,0 +1,50 @@
+[
+    
+    
+      {
+        "Firstname": "Srimathi",
+        "Lastname": "Karunakaran",
+        "RegNo": "121",
+        "Class": "HSLC",
+        "DOB": "15/10/2005",
+        "Address": "no.5,valluvar st,npm,cuddalore",
+        "Gender": "female",
+        "Email": "sri@gmail.com"
+        
+      },
+    
+    
+       {
+    "Firstname":"Sathya",
+    "Lastname":"Adaikaladoss",
+    "RegNo":"122",
+    "Class":"HSLC",
+    "DOB":"31/12/2003",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"female",
+    "Email":"sst@gmail.com"
+  },
+    {
+    "Firstname":"Bala",
+    "Lastname":"Kumaran",
+    "RegNo":"123",
+    "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"bal@gmail.com"
+
+  },
+   {
+    "Firstname":"Balaji",
+    "Lastname":"Karunakaran",
+    "RegNo":"124",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
+  }
+
+
+]
