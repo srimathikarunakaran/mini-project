@@ -7,10 +7,11 @@ export default function Address() {
       <Container fluid className="address-container">
         <Row className="justify-content-center align-items-center">
           <Col xs={12} md={6} className="col-1">
-            <h3>+91 9312456078</h3>
+            <h5>Phone: 0413-2654439</h5>
+            <h6>Email: ddehelpdesk@pondiuni.ac.in</h6>
           </Col>
           <Col xs={12} md={6} className="col-2">
-            #Ponducherri
+         <h6> Puducherry-605 014</h6>
           </Col>
         </Row>
       </Container>

@@ -26,11 +26,11 @@ function Details() {
              
              
               <Form.Group className="m-4" controlId="formBasicId">
-                <Form.Label className="text-primary">Reg No</Form.Label>
+                <Form.Label className="text-white">Reg No</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Enter Reg No"
-                  className=" text-white"
+                  className=" text-black"
                   value={regNo}
                   onChange={(e) => setRegNo(e.target.value)}
                 />
@@ -38,32 +38,32 @@ function Details() {
               <Row>
               <Col md={6} sm={12}>
             <Form.Group className="m-4" controlId="formBasicName">
-              <Form.Label className="text-primary">First Name</Form.Label>
+              <Form.Label className="text-white">First Name</Form.Label>
               <Form.Control
                  type="text"
                  placeholder=" Enter First Name"
-                 className=" text-white"
+                 className=" text-black"
               />
             </Form.Group>
           </Col>
           <Col md={6} sm={12}>
             <Form.Group className="m-4" controlId="formBasicName">
-              <Form.Label className="text-primary">Last Name</Form.Label>
+              <Form.Label className="text-white">Last Name</Form.Label>
               <Form.Control
                 type="text"
                 placeholder="Enter Last Name"
-                className="text-primary"
+                className="text-black"
               />
             </Form.Group>
           </Col>
               </Row>
 
               <Form.Group className="m-4" controlId="formBasicDob">
-          <Form.Label className="text-primary">Date Of Birth</Form.Label>
+          <Form.Label className="text-white">Date Of Birth</Form.Label>
           <Form.Control
             type="date"
             placeholder="DOB"
-            className=" text-primary"
+            className=" text-black"
             
           />
         </Form.Group> 

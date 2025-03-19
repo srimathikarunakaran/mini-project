@@ -12,10 +12,10 @@ export default function Header() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto" style={{ gap: "20px" }}>
-              <Nav.Link href={"/"}>Home</Nav.Link>
-              <Nav.Link href={"/about"}>About</Nav.Link>
-              <Nav.Link href={"/contact"}>Contact</Nav.Link>
+            <Nav className="ms-auto " style={{ gap: "20px" }}>
+              <Nav.Link href={"/"} className="text-white">Home</Nav.Link>
+              <Nav.Link href={"/about"} className="text-white">About</Nav.Link>
+              <Nav.Link href={"/contact"} className="text-white">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
 
