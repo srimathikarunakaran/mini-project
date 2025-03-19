@@ -6,7 +6,7 @@ export default function Text()
     return(
         <>
         <div>
-            <h1 className="text-primary">Click The Above Link To Know Time Table!</h1>
+            <h4 className="text-white">Click The Above Link To get Time Table!</h4>
         </div>
         
         </>
