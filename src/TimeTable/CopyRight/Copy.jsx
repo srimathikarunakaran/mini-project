@@ -13,7 +13,7 @@ function CopyrightContact() {
         <p>
           Contact Us:
           <br />
-          Email: [your-email@example.com](mailto:your-email@example.com)
+          Email:  [info@timetablewebsite.com](mailto:info@timetablewebsite.com)
           <br />
           Phone: +1-123-456-7890
         </p>

@@ -4,6 +4,7 @@ import Tenth from "./10th";
 import Twelve from "./12th";
 import Text from "./Text";
 import './TimeTable.css';
+import Container from "react-bootstrap/esm/Container";
 
 
 
@@ -12,7 +13,7 @@ export default function TimeTable()
 {
     return(
         <>
-       <div className="timetable">
+        <Container fluid className="timetable" sm={12} md={6}>
         <BrowserRouter>
           <Routes>
 
@@ -27,7 +28,9 @@ export default function TimeTable()
             </Route>
           </Routes>
         </BrowserRouter> 
-        </div>
+
+        </Container>
+        
         
         
         </>

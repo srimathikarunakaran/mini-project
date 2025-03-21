@@ -1,18 +1,17 @@
 .navbar {
   border-radius: 50px;
-  background-color: rgba(0, 0, 0, 0.253);
+  background-color: rgb(4, 4, 65);
   
 }
 
 .logo {
-  text-shadow: 3px 3px #142cb4;
+  text-shadow: 3px 3px #5a6decde;
   font-weight: bolder;
   padding: 30px;
   font-style: italic;
-  font-size: 30px;
 }
 .nav-con{
-  background-color:rgba(182, 182, 240, 0.568);
+  background-color: rgba(178, 178, 226, 0);
   border: none;
   position: fixed;
     top: 0;
@@ -24,6 +23,7 @@
   .navbar {
     border-radius: 30px;
     padding: 5px;
+    
   }
   .navbar Nav {
     flex-direction: column;
@@ -32,6 +32,7 @@
   }
   .navbar Nav.Link {
     margin-bottom: 10px;
+    margin: 30px;
   }
 }
 
@@ -44,17 +45,20 @@
     flex-direction: column;
     align-items: center;
   }
+  
   .navbar Nav.Link {
-    margin-bottom: 5px;
+    font-size: larger;
+
   }
 }
   .about {
     border: white 2px solid;
     border-radius: 40px;
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: rgba(74, 90, 233, 0.274);
     padding: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     line-height: 40px;
+    
   }
   
   /* Media queries */

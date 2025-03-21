@@ -1,23 +1,67 @@
 .timetable {
-    margin-top: 50px;
-    border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.226);
-    padding: 50px;
-    border-radius: 30px;
+  margin-top: 50px;
+  border: 2px solid rgb(50, 18, 190);
+  background-color: rgba(54, 54, 228, 0.164);
+  padding: 20px;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.button {
+  color: rgb(8, 8, 87);
+}
+
+.time {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.time1 {
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .timetable {
+    padding: 20px;
+    margin-top: 20px;
   }
-  
-  /* Media queries */
-  
-  @media (max-width: 768px) {
-    .timetable {
-      padding: 20px;
-      margin-top: 20px;
-    }
+  .time {
+    padding: 20px;
   }
-  
-  @media (max-width: 480px) {
-    .timetable {
-      padding: 10px;
-      margin-top: 10px;
-    }
+  .time1 {
+    padding: 20px;
   }
+}
+
+@media (max-width: 480px) {
+  .timetable {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .time {
+    padding: 10px;
+  }
+  .time1 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .timetable {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .time {
+    padding: 2px;
+    max-width: fit-content;
+  }
+  .time1 {
+    max-width: fit-content;
+    
+  }
+ 
+}

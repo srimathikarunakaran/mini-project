@@ -7,12 +7,12 @@ export default function Header() {
     <>
        <Navbar expand="lg" className="nav-con">
         <Container fluid className="navbar">
-          <Navbar.Brand href="#home" className="logo">
+          <Navbar.Brand href="#home" className="logo" style={{color:"white"}}>
             EDUCATION
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto " style={{ gap: "20px" }}>
+            <Nav className="ms-auto px-4 " style={{ gap: "20px" }}>
               <Nav.Link href={"/"} className="text-white">Home</Nav.Link>
               <Nav.Link href={"/about"} className="text-white">About</Nav.Link>
               <Nav.Link href={"/contact"} className="text-white">Contact</Nav.Link>

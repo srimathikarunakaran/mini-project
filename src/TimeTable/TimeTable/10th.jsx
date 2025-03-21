@@ -47,13 +47,13 @@ export default function Tenth()
     return(
         <>
         <section id="10th">
-                <div>
-                   <table className="table  text-black p-5" style={{backgroundColor: "rgba(34, 10, 247, 0.589)"}}>
-                    <tr className="border border-dark">
-                        <th scope="col" className="p-3">S.No</th>
-                        <th scope="col"className="p-3">Date</th>
-                        <th scope="col"className="p-3">Subject</th>
-                        <th scope="col"className="p-3">Duaration</th>
+                <div className="time">
+                   <table  className="table p-5 " style={{backgroundColor: "rgb(8, 8, 87)"}}>
+                    <tr className="border border-white">
+                        <th scope="col" className="py-4 text-info">S.No</th>
+                        <th scope="col"className="py-4 text-info">Date</th>
+                        <th scope="col"className="py-4 text-info">Subject</th>
+                        <th scope="col"className="py-4 text-info">Duaration</th>
                     </tr>
 
                     {

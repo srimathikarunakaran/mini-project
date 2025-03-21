@@ -1,4 +1,5 @@
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import CopyrightContact from "../CopyRight/Copy";
 
 export default function Contact() {
   return (
@@ -50,6 +51,9 @@ export default function Contact() {
           </Col>
         </Row>
       </Container>
+      </div>
+      <div>
+        <CopyrightContact />
       </div>
     </>
   );

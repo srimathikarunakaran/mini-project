@@ -1,4 +1,5 @@
 import { Container, Row } from "react-bootstrap";
+import CopyrightContact from "../CopyRight/Copy";
 
 export default function About() {
   return (
@@ -6,10 +7,10 @@ export default function About() {
       <Container className="mt-5">
         <Row>
           <div className="about">
-            <h1 className="text-primary mb-5">
+            <h1 className=" mb-5" style={{color:"#030349"}}>
               About
             </h1>
-            <p className="mb-4 text-center">
+            <p className="mb-4 text-center fw-bold">
               The TN 12th public exam time table 2025 is now live at the
               official website of Directorate of Government Examinations
               (DGE), Tamil Nadu so that all the students of class 12th can
@@ -21,10 +22,10 @@ export default function About() {
               link to download the time table PDF is added in the article
               below.
             </p>
-            <h2 className="text-primary mb-4">
+            <h2 className=" mb-4" style={{color:"#030349"}}>
               10th And 12th Public Exam Time Table 2025 Out
             </h2>
-            <p className="mb-4 text-center">
+            <p className="mb-4 text-center fw-bold">
               The Class 12 Public Exam Time Table 2025 is now available on
               the official website. Students are advised to check it
               carefully. According to the schedule, the final exams will
@@ -37,11 +38,11 @@ export default function About() {
               the exam timetable properly will help you perform your best
               in the exams.
             </p>
-            <h2 className=" text-primary mb-4">
+            <h2 className="  mb-4" style={{color:"#030349"}}>
               TN 12th And 10th Public Exam Time Table 2025 Tamil Nadu
               Board
             </h2>
-            <p className="text-center">
+            <p className="text-center fw-bold">
               The TN HSC +2 Exams 2025 will be conducted in single shift
               starting at 10 am and ending at 01:15 pm. The first 15 minutes
               are given for reading the question paper and verifying
@@ -54,6 +55,9 @@ export default function About() {
           </div>
         </Row>
       </Container>
+      <div>
+              <CopyrightContact />
+            </div>
     </>
   );
 }

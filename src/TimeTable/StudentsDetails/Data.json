@@ -44,7 +44,61 @@
     "Address":"no.5,valluvar st,npm,cuddalore",
     "Gender":"Male",
     "Email":"Bala@gmail.com"
+  },
+  {
+    "Firstname":"Dinesh",
+    "Lastname":"Bala Moorthi",
+    "RegNo":"125",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
+  },
+  {
+    "Firstname":"karunakaran",
+    "RegNo":"126",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
+  },
+  {
+    "Firstname":"karunakaran",
+    "RegNo":"126",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
+  },
+  {
+    "Firstname":"karunakaran",
+    "RegNo":"126",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
+  },
+  {
+    "Firstname":"Amsu",
+    "RegNo":"127",
+     "Class":"HSLC",
+    "DOB":"15/11/2007",
+    "Address":"no.5,valluvar st,npm,cuddalore",
+    "Gender":"Male",
+    "Email":"Bala@gmail.com"
   }
+
+
+
+
+
+
+
+
 
 
 ]

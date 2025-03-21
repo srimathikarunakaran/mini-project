@@ -15,7 +15,8 @@ export default function Ban()
                 <Carousel>
   <Carousel.Item  interval={2000}>
     <img
-      className="d-block w-100"
+      className="d-block w-100 "
+      style={{borderRadius:"50px"}}
       src={slider2}
       alt="First slide"
     />
@@ -26,6 +27,7 @@ export default function Ban()
   <Carousel.Item  interval={2000}>
     <img
       className="d-block w-100"
+      style={{borderRadius:"50px"}}
       src={slider2}
       alt="Second slide"
     />
@@ -36,7 +38,8 @@ export default function Ban()
   </Carousel.Item>
   <Carousel.Item interval={2000}>
     <img
-      className="d-block w-100"
+      className="d-block w-100 "
+      style={{borderRadius:"50px"}}
       src={slider2}
       alt="Third slide"
     />

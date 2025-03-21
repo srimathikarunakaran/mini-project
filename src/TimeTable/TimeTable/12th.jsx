@@ -74,19 +74,19 @@ export default function Twelve()
         ]);
     return(
         <>
-        <section id="10th">
-                <div>
-                   <table className="table  text-black p-5" style={{backgroundColor: "rgba(34, 10, 247, 0.589)"}}>
-                    <tr className="border border-dark">
-                        <th scope="col" className="p-3">S.No</th>
-                        <th scope="col"className="p-3">Date</th>
-                        <th scope="col"className="p-3">Subject</th>
-                        <th scope="col"className="p-3">Duaration</th>
+        <section id="12th">
+        <div className="time">
+                   <table  className="table p-5 " style={{backgroundColor: "rgb(8, 8, 87)"}}>
+                    <tr className="border border-white">
+                        <th scope="col" className="py-4 text-info">S.No</th>
+                        <th scope="col"className="py-4 text-info">Date</th>
+                        <th scope="col"className="py-4 text-info">Subject</th>
+                        <th scope="col"className="py-4 text-info">Duaration</th>
                     </tr>
 
                     {
                         twelve.map((d,i) =>
-                            <tr className="border border-black text-white ">
+                            <tr className="border  text-white ">
                                 <td className="p-3">{i+1}</td>
                                 <td className="p-3">{d.Date}</td>
                                 <td className="p-3">{d.Subject}</td>
@@ -97,6 +97,7 @@ export default function Twelve()
                     }
                    </table>
                 </div>
+
 
 
                 </section>
